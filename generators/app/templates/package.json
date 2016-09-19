@@ -1,14 +1,21 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
+  "name": "<%= packageName %>",
+  "version": "<%= version %>",
+  "description": "xc project",
   "scripts": {
     "start": "node app.js",
     "test": "supervisor app.js"
   },
+  "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>"
+  },
+  "keywords": [
+    "lg", "<%= packageName %>"
+  ],
   "dependencies": {
     "body-parser": "~1.0.0",
-    "cookie-parser": "~1.0.1",
+    "cookie-parser": "^1.0.1",
     "debug": "~0.7.4",
     "express": "~3.4.8",
     "moment": "^2.14.1",
@@ -19,5 +26,7 @@
     "supervisor": "^0.11.0",
     "underscore": "^1.8.3",
     "url": "^0.11.0"
-  }
+  },
+  "author": "<%= author %>",
+  "license": "<%= License %>"
 }

@@ -12,11 +12,11 @@ function Logo(contex) {
     }
     catch (e) {}
     var logo = '\n'
-        +    chalk.red('\\ / /     //   ) )\n')
-        +    chalk.yellow('\  /     //\n')
-        +    chalk.magenta('/ /     //\n')
-        +    chalk.blue('/ /\\   //\n')
-        +    chalk.yellow('/ /  \\ ((____/ / \n') + '    ' + version + '\n\n';
+        +    chalk.red(' \\\\ / /      //____) )\n')
+        +    chalk.yellow('  \\  /     //\n')
+        +    chalk.magenta('  / /     //\n')
+        +    chalk.blue(' / /\\\\   //\n')
+        +    chalk.yellow('/ /  \\\\ ((____/ / \n') + '    ' + version + '\n\n';
 
     logo += ('need help?') + chalk.magenta('  ===>  ') + chalk.green('yo xc:h') + '\n';
 

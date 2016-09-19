@@ -1,6 +1,6 @@
 {
   "name": "generator-xc",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "咸池express API接口服务",
   "homepage": "https://github.com/liubiao0810/generator-xc",
   "author": {
@@ -12,32 +12,16 @@
     "generators/app",
     "h"
   ],
-  "main": "generators/index.js",
+  "main": "generators/app/index.js",
   "keywords": [
-    "",
+    "generator-xc",
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
-    "yosay": "^1.0.0"
+    "git-config": "0.0.7",
+    "yeoman-generator": "^0.23.0"
   },
-  "devDependencies": {
-    "yeoman-test": "^1.0.0",
-    "yeoman-assert": "^2.0.0",
-    "eslint": "^2.1.0",
-    "eslint-config-xo-space": "^0.13.0"
-  },
-  "eslintConfig": {
-    "extends": "xo-space",
-    "env": {
-      "mocha": true
-    }
-  },
-  "repository": "https://github.com/liubiao0810/nodeWeb",
-  "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
-  },
+  "repository": "https://github.com/liubiao0810/generator-xc",
   "license": "MIT"
 }
